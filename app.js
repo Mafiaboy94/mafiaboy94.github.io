@@ -1,4 +1,4 @@
-var globalBackground = galaxysim.milky_way;
+var globalBackground = galaxysim.light_blue;
 galaxysim.mesh = new THREE.PointCloud();
 galaxysim.meshGas = new THREE.PointCloud();
 galaxysim.meshVfx = new THREE.PointCloud();
@@ -384,7 +384,7 @@ galaxysim.meshVfx = new THREE.PointCloud();
 
     function displayGUI() {
             var testParameters = function() {
-                this.backgrounds = galaxysim.milky_way;
+                this.backgrounds = galaxysim.light_blue;
                 this.gravity_strength = 10;
                 this.large_stars_opacity = 0.6;
                 this.small_stars_opacity = 0.6;
@@ -433,6 +433,6 @@ galaxysim.meshVfx = new THREE.PointCloud();
 
     $(document).ready(function() {
         displayGUI();
-        render_all(galaxysim.milky_way);
+        render_all(galaxysim.light_blue);
     });
 })();
