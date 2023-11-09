@@ -1,4 +1,4 @@
-var globalBackground = galaxysim.milky_way;
+var globalBackground = galaxysim.light_blue;
 galaxysim.mesh = new THREE.PointCloud();
 galaxysim.meshGas = new THREE.PointCloud();
 galaxysim.meshVfx = new THREE.PointCloud();
