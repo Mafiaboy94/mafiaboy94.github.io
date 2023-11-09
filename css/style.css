@@ -12,7 +12,7 @@
 
 body {
   font-family: 'Roboto Mono', sans-serif;
-  background-color: transparent;
+  background-color: hsla(0, 100%, 90%, 0.3);
   color: #ccc;
   font-size: 18px;
   line-height: 1.6;
