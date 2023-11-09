@@ -45,7 +45,7 @@ contact.addEventListener('click', () => {
 
 
 // Typewriter.js
-// https://github.com/ronv/Typewriter.js
+// https://mafiaboy94.github.io/JS/Typewriter.js
 
 $.fn.typewriter = function() {
   this.each(function() {
