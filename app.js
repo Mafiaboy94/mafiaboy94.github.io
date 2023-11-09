@@ -398,10 +398,7 @@ galaxysim.meshVfx = new THREE.PointCloud();
             var f3 = gui.addFolder('Gravitational Constant');
             var f4 = gui.addFolder('Material Visibility');
             var backgrounds = f2.add(text, 'backgrounds', {
-                'Milky Way': 0,
                 'Light Blue': 1,
-                'Blue': 2,
-                'Red': 3,
             });
             var gravity_strength = f3.add(text, 'gravity_strength').min(0.1).max(10).step(0.1).listen();
             var large_stars_opacity = f4.add(text, 'large_stars_opacity').min(0).max(1).step(0.1).listen();
