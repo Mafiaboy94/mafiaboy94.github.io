@@ -12,8 +12,8 @@
 
 body {
   font-family: 'Roboto Mono', sans-serif;
-  background-color: rgba(0,0,0,0);
-  color: rgba(0,0,0,0);
+  background-color: transparent;
+  color: transparent;
   font-size: 18px;
   line-height: 1.6;
 }
