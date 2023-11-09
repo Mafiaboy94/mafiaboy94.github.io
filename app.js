@@ -1,4 +1,4 @@
-var globalBackground = galaxysim.light_blue;
+var globalBackground = galaxysim.milky_way;
 galaxysim.mesh = new THREE.PointCloud();
 galaxysim.meshGas = new THREE.PointCloud();
 galaxysim.meshVfx = new THREE.PointCloud();
@@ -384,7 +384,7 @@ galaxysim.meshVfx = new THREE.PointCloud();
 
     function displayGUI() {
             var testParameters = function() {
-                this.backgrounds = Light Blue;
+                this.backgrounds = 1;
                 this.gravity_strength = 6.5;
                 this.large_stars_opacity = 0.6;
                 this.small_stars_opacity = 0.6;
