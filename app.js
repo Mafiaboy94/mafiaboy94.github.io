@@ -384,7 +384,7 @@ galaxysim.meshVfx = new THREE.PointCloud();
 
     function displayGUI() {
             var testParameters = function() {
-                this.backgrounds = galaxysim.light_blue;
+                this.backgrounds = Light Blue;
                 this.gravity_strength = 6.5;
                 this.large_stars_opacity = 0.6;
                 this.small_stars_opacity = 0.6;
