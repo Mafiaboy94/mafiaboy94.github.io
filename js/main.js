@@ -15,7 +15,7 @@ about.addEventListener('click', () => {
     left: 50,
     mount: aboutContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('rgba(119, 119, 119, 0.5)');
     },
     onblur: function () {
       this.setBackground('rgba(119, 119, 119, 0.5)');
@@ -35,10 +35,10 @@ contact.addEventListener('click', () => {
     left: 250,
     mount: contactContent,
     onfocus: function () {
-      this.setBackground('#00aa00')
+      this.setBackground('rgba(119, 119, 119, 0.5)');
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('rgba(119, 119, 119, 0.5)');
     },
   })
 })
