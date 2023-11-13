@@ -7,7 +7,7 @@
 }
 
 :root {
-  --text-color: #FFF;
+  --text-color: #f00;
 }
 
 body {
@@ -43,7 +43,7 @@ a {
 }
 
 .resume {
-  color:  #0f0;
+  color:  #f00;
   text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ nav ul li {
 .container {
   max-width: 1000px;
   margin: auto;
-  height: 92vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
