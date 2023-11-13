@@ -18,7 +18,7 @@ about.addEventListener('click', () => {
       this.setBackground('#00aa00')
     },
     onblur: function () {
-      this.setBackground('#777')
+      this.setBackground('rgba(119, 119, 119, 0.5)');
     },
   })
 })
