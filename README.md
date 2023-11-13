@@ -1,4 +1,4 @@
-# galaxy-sim
+# MafiaboyXx's Project
 
 [__Link to live demo__](http://andrewdcampbell.github.io/galaxy-sim)
 
