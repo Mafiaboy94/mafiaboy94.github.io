@@ -73,7 +73,7 @@ nav ul li {
 .container {
   max-width: 1000px;
   margin: auto;
-  height: 90vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
