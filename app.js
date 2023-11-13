@@ -388,7 +388,7 @@ galaxysim.meshVfx = new THREE.PointCloud();
                 this.gravity_strength = 10;
                 this.large_stars_opacity = 0.6;
                 this.small_stars_opacity = 0.6;
-                this.gas_opacity = 0;
+                this.gas_opacity = 0.4;
             };
 
             var text = new testParameters();
